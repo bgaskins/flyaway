@@ -1,0 +1,87 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>NewPassword</servlet-name>
+  	<display-name>NewPassword</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.NewPassword</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Login</servlet-name>
+  	<display-name>Login</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.Login</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>SearchFlights</servlet-name>
+  	<display-name>SearchFlights</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.SearchFlights</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Booking</servlet-name>
+  	<display-name>Booking</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.Booking</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Registration</servlet-name>
+  	<display-name>Registration</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.Registration</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Passenger</servlet-name>
+  	<display-name>Passenger</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.Passenger</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>AdminLogin</servlet-name>
+  	<display-name>AdminLogin</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.AdminLogin</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BookFlight</servlet-name>
+  	<display-name>BookFlight</display-name>
+  	<description></description>
+  	<servlet-class>com.controller.BookFlight</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>NewPassword</servlet-name>
+  	<url-pattern>/NewPassword</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Login</servlet-name>
+  	<url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>SearchFlights</servlet-name>
+  	<url-pattern>/SearchFlights</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Booking</servlet-name>
+  	<url-pattern>/Booking</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Registration</servlet-name>
+  	<url-pattern>/Registration</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Passenger</servlet-name>
+  	<url-pattern>/Passenger</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>AdminLogin</servlet-name>
+  	<url-pattern>/AdminLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BookFlight</servlet-name>
+  	<url-pattern>/BookFlight</url-pattern>
+  </servlet-mapping>
+</web-app>
